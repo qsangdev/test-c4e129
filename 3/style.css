@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e6eaf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  width: 1213px;
+  height: 830px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.content {
+  margin: 100px;
+}
+
+.content .taskbar-container .search {
+  display: flex;
+  align-items: center;
+}
+
+.content .taskbar-container .search input {
+  height: 30px;
+  outline: none;
+}
+
+.content .search img {
+  width: 20px;
+  height: 20px;
+}
+
+.content .taskbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1013px;
+  height: 64px;
+  margin-top: 24px;
+}
+
+.content .taskbar-container ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.content .taskbar-container ul li {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.content .taskbar-container #special {
+  border-radius: 8px;
+  background-color: #516fd4;
+  color: white;
+}
+
+.content .users-container {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+}
+
+.content .users-container .users {
+  display: flex;
+  background-color: #fbfcff;
+  border-radius: 16px;
+}
+
+.content .users-container .users .users-content {
+  margin: 24px;
+  display: flex;
+}
+
+.content .users-container #jesus {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.content .users-container .users .users-content .users-img img {
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.content .users-container .users .users-content .users-info {
+  margin-top: 20px;
+}
+
+.content .users-container .users .users-content .users-info .users-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.content .users-container .users .users-content .users-info .users-location {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.content .users-container .users .users-content .users-info .users-fav p {
+  border: 1px solid #bfc8e6;
+  border-radius: 16px;
+  color: #516fd4;
+  display: inline-flex;
+  margin-top: 16px;
+  margin-right: 3px;
+}
